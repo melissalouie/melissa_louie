@@ -1,5 +1,8 @@
 class Contact < MailForm::Base
 
+  include ActiveModel::Model
+  include ActiveModel::Conversion
+  include ActiveModel::Validations
   attribute :name,      :validate => true
   attribute :message,   :validate => true
   attribute :email
