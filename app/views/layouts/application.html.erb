@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>MelissaLouie</title>
+  <title>mlouie</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <script type="text/javascript" src='main.js'></script>
 </head>
 <body>
-<% if notice %>
-  <%= notice %>
-<% end %>
-
-<%= yield %>
-
+  <% if notice %>
+    <%= notice %>
+  <% end %>
+  <%= yield %>
 </body>
 </html>
