@@ -14,7 +14,7 @@ body {
   margin-top: 300px;
 }
 
-h1 {
+.top h1 {
   font-size: 52px;
   color: white;
 }
@@ -38,3 +38,29 @@ h1 {
 .form-group {
   margin-top: 50px;
 }
+
+.projects {
+  height: 100vh;
+}
+
+.projects h1 {
+  padding: 50px;
+  text-align: center;
+}
+
+.projects {
+
+  line-height: 0px;
+  color: transparent;
+  font-size: 50px;
+  font-family: “HelveticaNeue-Light”, “Helvetica Neue Light”, “Helvetica Neue”, Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+}
+
+.projects:hover {
+  color: #575858;
+  }
