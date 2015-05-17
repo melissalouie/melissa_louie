@@ -11,7 +11,7 @@ body {
 #logo {
   height: 400px;
   text-align: center;
-  margin-top: 300px;
+  margin-top: 125px;
 }
 
 .top h1 {
@@ -66,4 +66,13 @@ body {
 h1 {
   position: relative;
   z-index: 2;
+}
+
+
+#slide {
+  height: 100vh;
+  background-color: #F0F0F0;
+  opacity: 0.5;
+  margin-top: -339px;
+  z-index: -5px;
 }
