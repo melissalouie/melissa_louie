@@ -9,9 +9,9 @@ body {
 }
 
 #logo {
-  height: 400px;
+  height: 600px;
   text-align: center;
-  margin-top: 125px;
+  margin-top: 225px;
 }
 
 .top h1 {
@@ -27,7 +27,7 @@ body {
   background-size: cover;
   height: 100vh;
   opacity: 0.7;
-  filter: alpha(opacity=40);
+  margin: 0px auto;
 }
 
 .contact {
@@ -50,9 +50,6 @@ body {
   color: transparent;
   font-size: 50px;
   font-weight: 300;
-  -webkit-transition: all 0.5s ease;
-   -moz-transition: all 0.5s ease;
-   -o-transition: all 0.5s ease;
 }
 
 .projects:hover {
@@ -68,11 +65,29 @@ h1 {
   z-index: 2;
 }
 
+#tennis {
+  background-image: url(tennis_ball.png) no-repeat center center fixed;
+  background-size: cover;
+  float: right;
 
-#slide {
-  height: 100vh;
-  background-color: #F0F0F0;
-  opacity: 0.5;
-  margin-top: -339px;
-  z-index: -5px;
+}
+
+#tennis img {
+  width: 100%;
+  position: relative;
+}
+
+#tennis h1, #tennis h3 {
+  position: absolute;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  margin-left: 250px;
+  margin-top: 225px;
+  color: white;
+}
+
+h3 {
+  margin-top: 130px;
+  margin-left: -50px;
 }
