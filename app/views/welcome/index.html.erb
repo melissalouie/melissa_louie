@@ -6,15 +6,19 @@
 </div>
 
 <div class="projects clearfix">
-  <div class="col-md-6"><h1>Hood Sketch</h1></div>
-  <div class="col-md-6" id="tennis">
-    <%= image_tag('tennis_ball.png', id: 'tennis') %>
+  <div class="col-md-4" id="taskdom">
+    <%= image_tag('taskdom.jpg', class: 'img-responsive') %>
+    <h2>Taskdom</h2>
+    <p>Ruby on Rails, HTML, CSS</p>
+  </div>
+  <div class="col-md-6" id="little_bird">
+    <%= image_tag('little_bird.png', class: 'img-responsive') %>
+  </div>
+  <!-- <div class="col-md-6" id="tennis">
+     image_tag('tennis_ball.png', id: 'tennis')
     <h1>Let's Play Tennis</h1>
     <h3>Ruby on Rails, CSS, HTML, Javascript, JQuery</h3>
-
-
-
-  </div>
+  </div> -->
 </div>
 <div class="contact clearfix">
   <%= form_for(@contact) do |f| %>

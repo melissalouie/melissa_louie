@@ -48,13 +48,6 @@ body {
   margin-top: 200px;
 }
 
-.projects {
-  height: 200vh;
-  line-height: 0px;
-  color: transparent;
-  font-size: 50px;
-  font-weight: 300;
-}
 
 .projects h3 {
   margin-left: 20%;
@@ -92,12 +85,12 @@ h1 {
   color: white;
 }
 
-#tennis h1, #tennis h3 {
+#tennis h1, #tennis h3, #taskdom h2, #taskdom p {
     opacity:0; /* Completely invisible. */
     transition:1s; /* A 1 second transition. */
 }
 
-#tennis:hover h1, #tennis:hover h3 {
+#tennis:hover h1, #tennis:hover h3, #taskdom:hover h2, #taskdom:hover p {
     opacity:1; /* Completely visible. */
 }
 
@@ -107,4 +100,27 @@ h1 {
   border-top-style: solid;
   border-top-width: 1px;
   padding: 10px;
+}
+
+#taskdom p {
+  border-top-style: solid;
+  border-top-width: 1px;
+  color: white;
+}
+
+#taskdom h2 {
+  color: white;
+  margin-top: -350px;
+  margin-left: 10%;
+}
+
+#taskdom img {
+  margin-left: -12px;
+}
+
+#little_bird img {
+  margin-left: -42px;
+  height: 450px;
+  opacity: 0.7;
+
 }
