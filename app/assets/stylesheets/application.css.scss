@@ -10,7 +10,7 @@ body {
 #logo {
   height: 350px;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 125px;
 }
 
 .top h1 {
@@ -87,12 +87,18 @@ h1 {
 
 #tennis h1, #tennis h3 {
   position: absolute;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
   margin-left: 250px;
   margin-top: 225px;
   color: white;
+}
+
+#tennis h1, #tennis h3 {
+    opacity:0; /* Completely invisible. */
+    transition:1s; /* A 1 second transition. */
+}
+
+#tennis:hover h1, #tennis:hover h3 {
+    opacity:1; /* Completely visible. */
 }
 
 #tennis h3 {
