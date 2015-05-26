@@ -1,10 +1,9 @@
 @import 'bootstrap';
 @import 'bootstrap-sprockets';
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
 
 body {
-
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #706F6F;
 }
 
@@ -45,12 +44,21 @@ body {
   text-align: center;
 }
 
+#tennis h1 {
+  margin-top: 200px;
+}
+
 .projects {
   height: 200vh;
   line-height: 0px;
   color: transparent;
   font-size: 50px;
   font-weight: 300;
+}
+
+.projects h3 {
+  margin-left: 20%;
+  margin-top: 200px;
 }
 
 .projects:hover {
@@ -67,8 +75,6 @@ h1 {
 }
 
 #tennis {
-  background-image: url(tennis_ball.png) no-repeat center center fixed;
-  background-size: cover;
   float: right;
 
 }
@@ -76,6 +82,7 @@ h1 {
 #tennis img {
   width: 100%;
   position: relative;
+  margin-right: -35px;
 }
 
 #tennis h1, #tennis h3 {
@@ -88,7 +95,10 @@ h1 {
   color: white;
 }
 
-h3 {
-  margin-top: 130px;
-  margin-left: -50px;
+#tennis h3 {
+  margin-top: 325px;
+  margin-left: 25%;
+  border-top-style: solid;
+  border-top-width: 1px;
+  padding: 10px;
 }
